@@ -14,7 +14,7 @@ public class Method1Ref {
     }
 public static int add(int a, int b) {
     System.out.println(a + "+" + b + "연산수행");
-    int sum = a * b + 1000;
+    int sum = a + b;
     return sum;
     }
 }
